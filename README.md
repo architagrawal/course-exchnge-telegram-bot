@@ -142,6 +142,10 @@ If you want any additional changes to this README or repo, feel free to contact 
 
 Feel free to add a license to your repository. If you're open-sourcing, consider MIT or Apache 2.0.
 
+### License (GNU GPL v3)
+
+This project is licensed under the GNU General Public License v3.0. See the `LICENSE` file for details.
+
 ---
 
 Good luck with your GitHub upload — want me to create `.env.example` and a `requirements.txt` with versions to make the setup even easier?
