@@ -1,6 +1,6 @@
-# ASU Course Exchange Bot 🎓🤖
+# Course Exchange Bot 🎓🤖
 
-A lightweight Python Telegram bot built to help ASU students exchange classes (swap courses). It integrates with MySQL, uses the Telegram Bot API, and can operate via a webhook (ngrok) or polling. The project demonstrates building functional chatbots, DB-driven matching logic, and building reliable user flows.
+A lightweight Python Telegram bot built to help students exchange classes (swap courses). It integrates with MySQL, uses the Telegram Bot API, and can operate via a webhook (ngrok) or polling. The project demonstrates building functional chatbots, DB-driven matching logic, and building reliable user flows.
 
 ---
 
@@ -137,15 +137,6 @@ python bot20.3.py
 If you want any additional changes to this README or repo, feel free to contact the author or open an issue.
 
 ---
-
-## License
-
-Feel free to add a license to your repository. If you're open-sourcing, consider MIT or Apache 2.0.
-
 ### License (GNU GPL v3)
 
 This project is licensed under the GNU General Public License v3.0. See the `LICENSE` file for details.
-
----
-
-Good luck with your GitHub upload — want me to create `.env.example` and a `requirements.txt` with versions to make the setup even easier?
