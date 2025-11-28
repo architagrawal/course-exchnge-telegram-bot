@@ -1,0 +1,5 @@
+python-telegram-bot==20.3
+pyngrok==5.1.0
+mysql-connector-python==8.0.34
+requests==2.31.0
+bottle==0.12.25

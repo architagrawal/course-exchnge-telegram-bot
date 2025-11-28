@@ -1,0 +1,12 @@
+user will decide a mutual time among them.they will ping system 2-5 mins before the decided time. Will perform the transaction.
+system change status to complete if both party got course else give regret message and change status to open.
+
+maintain a black list with a reason.
+
+people can send message to developers
+
+somehow track the visits to website of course and to bot
+
+people recommend and get a free service
+
+reply with a bar graph for available, means want and have ratio. 

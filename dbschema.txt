@@ -1,0 +1,7 @@
+make users table: CREATE TABLE users (user_id INT AUTO_INCREMENT PRIMARY KEY, telegram_id INT, first_name VARCHAR(255), request_id INT)
+
+make requests table: CREATE TABLE requests (request_id INT AUTO_INCREMENT PRIMARY KEY, user_id INT, have VARCHAR(255), want VARCHAR(255), status VARCHAR(255), created_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP, last_updated_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP)
+
+alter table: ALTER TABLE users ADD COLUMN contact_number VARCHAR(255)
+
+insert : INSERT INTO users (telegram_id, first_name, contact_number) VALUES (%s, %s, %s)

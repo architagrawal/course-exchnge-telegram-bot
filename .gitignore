@@ -1,0 +1,99 @@
+# .gitignore for ASU Course Exchange Bot
+# Prevent committing secrets, credentials, and local/temporary files
+
+# Environment files (explicitly ignore)
+.env
+.env.*
+**/.env
+
+# Simple secret files in this repo (explicit names)
+apikey.txt
+apikeys.txt
+*apikey*
+
+# Token/credentials files
+credentials.json
+credentials.*
+secrets.json
+secrets.*
+*secret*
+
+# Common private key certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+
+# User SSH keys and private identity files
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+.ssh/
+
+# Cloud provider credential/config files
+.aws/
+.aws/*
+*.aws
+.gcloud/
+google-credentials*.json
+.azure/
+
+# Database files & local DB dumps
+*.sqlite3
+*.db
+*.sql
+*.dump
+
+# Log files
+*.log
+logs/
+
+# Python cache and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pym
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+
+# Editor configs and OS files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Test / temporary
+pytest_cache/
+__pycache__/
+*.tmp
+*.swp
+
+# Node modules (if you add Node code later)
+node_modules/
+
+# End of .gitignore

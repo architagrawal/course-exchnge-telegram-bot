@@ -1,0 +1,14 @@
+Name:
+ASU course Trading Bot
+
+About:
+TradeMate - Simplifying course trading for ASU students. Unofficial but here to help!
+
+commands:
+
+start - Initiate Chat
+cancel - Stop chat
+drop - drop your request. USE CAREFULLY
+
+
+description:
